@@ -1,0 +1,40 @@
+
+.dreams-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    height: 800px;
+}
+
+.dreams-swim{
+    width: 100%;
+    background-image: url('./images/phelps.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.dreams-car{
+    width: 100%;
+    background-image: url('./images/car.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.dream-swim{
+    width: 100%;
+    background-image: url('./images/water.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dream-race{
+    width: 100%;
+    background-image: url('./images/track.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+.christmas-background{
+    position: relative;
+    display: grid;
+    width: 100%;
+    height: 400px;
+    background-color: #0F8A5F;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-template-columns: 40% 60%;
+}
+
+.sky {
+    height: 100%;
+    color: #FFF;
+    display: block;
+  }
+
+.christmas-border{
+    position: relative;
+    width: 100%;
+    background-image: url('./images/border.png');
+    background-size: 100% 100%;
+}
+
+.christmas-image{
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-image: url('./images/christmas.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.holiday-wishes{
+    font-family: "Mountains of Christmas";
+    font-size: 48px;
+    line-height: 6.2;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.795);
+    text-align: center;
+}
+
+.christmas-text{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: "Mountains of Christmas";
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.sky {
+    height: 100%;
+    color: #FFF;
+    display: block;
+  }

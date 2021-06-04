@@ -1,0 +1,21 @@
+.sagrada-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    widows: 100%;
+    height: 500px;
+}
+
+.sagrada-background{
+    width: 100%;
+    background-image: url('./images/sagrada_familia.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.sagrada-text{
+    width: 100%;
+    font-size: 77px;
+    align-self: center;
+    text-align: center;
+}

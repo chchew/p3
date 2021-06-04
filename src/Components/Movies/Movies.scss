@@ -1,0 +1,106 @@
+.main-divider{
+    position: relative;
+    display: grid;
+    width: 100%;
+    height: 1200px;
+    grid-template-rows: 30% 40% 30%;
+}
+
+.lotr{
+    display: flex;
+    flex-direction: row;
+    background-color: #dad9c8;
+    width: 100%;
+    justify-content: center;
+}
+
+.lotr-text{
+    display: flex;
+    width: 100%;
+    font-family: 'Elvish Ring NFI', arial;
+    text-shadow: 4px 4px 4px rgba(170, 170, 170, 0.384);
+    font-size: 46px;
+    line-height: 8;
+    text-align: center;
+    justify-content: center;
+    color: rgba(253, 253, 43, 0.541);
+    background-image: url('./images/ring.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.lotr-background-image{
+    display: flex;
+    width: 100%;
+    background-image: url('./images/lotr.png');
+    background-size: 100%;
+    background-color: black;
+    background-position: center;
+}
+
+.spiderman{
+    display: flex;
+    flex-direction: row;
+    background-color: red;   
+    justify-content: center; 
+}
+
+.spiderman-comic{
+    display: flex;
+    width: 100%;
+    background-image: url('./images/spiderman.jpg');
+    background-size: 95% 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.spiderman-text-background{
+    width: 100%;
+    display: flex;
+    background-image: url('./images/city.jpg');
+    background-size: cover;
+}
+
+.spiderman-text{
+    width: 100%;
+    background-image: url('./images/spidey.png');
+    background-position: center;
+    background-size: 50% 70%;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 70px;
+    line-height: 3.5;
+    color: rgb(212, 212, 212);
+}
+
+.rick-morty{
+    display: flex;
+    flex-direction: row;
+    background-image: url('./images/portal.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.rick-morty-text{
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    line-height: 2.8;
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    background-position: center;
+}
+
+.rick-morty-background{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url('./images/rick.jpg');
+    background-size: 95% 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

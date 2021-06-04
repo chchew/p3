@@ -1,0 +1,46 @@
+.disney{
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+}
+
+.disney-park{
+    background-image: url('./images/disney.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tittleText{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    font-family: 'WaltographRegular';
+    font-size: 50px;
+    line-height: 4.0;
+    text-align: center;
+}
+
+.button-cover{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40%;
+    left: 5%;
+    right: 5%;
+    bottom: 10%;
+    justify-content: space-evenly;
+}
+
+.overall-button{
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    width: 15%;
+    height: 80%;
+}
